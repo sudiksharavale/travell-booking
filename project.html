@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8"
+/>
+ <meta name="viewport" content="width=device-width, initialscale=1">
+ <meta name="viewport" content="width=device-width, initialscale=1">
+ <link rel="stylesheet"
+href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Raleway">
+ <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="projectt.css" />
+ <link rel="stylesheet" type="text/js" href="projecttt.js" />
+ <link rel="stylesheet" href="style2.css">
+ <link rel="stylesheet" href="style3.css">
+ <style>
+ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial,
+Helvetica, sans-serif}
+.myLink {display: none}
+ </style>
+ </head>
+ <body class="w3-light-grey">
+
+
+ <nav>
+ <a class="active" href="#"><i class="fa
+fa-fw fa-home"></i> Home</a>
+ <a
+href="hotelf.html"><span>&#127869;</span> HOTEL</a>
+<a
+href="flights.html"><span>&#9992;</span>flights</a>
+<a
+href="cabs.html"><span>&#128659;</span>Cabs</a>
+<a href="railway.html"><span>&#128647;</span>Railway</a>
+<a href="search.html"><span>&#128647;</span>search</a>
+<a href="contancat.html"><i class="fafa-fw fa-envelope"></i> Contact</a>
+<a
+onclick="document.getElementById('id01').style.display='block'"><i
+class="fa fa-fw fa-user"></i> Login </a>
+ <a
+onclick="document.getElementById('id02').style.display='block'"><i
+class="fa fa-fw fa-user"></i> Sign Up </a>
+
+ </nav>
+ <!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small"
+style="max-width:1500px">
+ <img class="w3-image" src="wll.jpg" alt="London" width="1500"
+height="700">
+ <div class="w3-display-middle" style="width:65%">
+ <div class="w3-bar w3-black">
+ <button class="w3-bar-item w3-button tablink"
+onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-marginright"></i>Flight</button>
+ <button class="w3-bar-item w3-button tablink"
+onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-marginright"></i>Hotel</button>
+ <button class="w3-bar-item w3-button tablink"
+onclick="openLink(event, 'Car');"><i class="fa fa-car w3-marginright"></i>Rental</button>
+ </div>
+ <!-- Tabs -->
+ <div id="Flight" class="w3-container w3-white w3-padding-16
+myLink">
+ <h3>Travel the world with us</h3>
+ <div class="w3-row-padding" style="margin:0 -16px;">
+ <div class="w3-half">
+ <label>From</label>
+ <input class="w3-input w3-border" type="text"
+placeholder="Departing from">
+ </div>
+ <div class="w3-half">
+ <label>To</label>
+ <input class="w3-input w3-border" type="text"
+placeholder="Arriving at">
+ </div>
+ </div>
+ <p><button class="w3-button w3-dark-grey">Search and find
+dates</button></p>
+ </div>
+
+ <div id="Hotel" class="w3-container w3-white w3-padding-16
+myLink">
+ <h3>Find the best hotels</h3>
+ <p>Book a hotel with us and get the best fares and
+promotions.</p>
+ <p>We know hotels - we know comfort.</p>
+ <p><button class="w3-button w3-dark-grey">Search
+Hotels</button></p>
+ </div>
+
+ <div id="Car" class="w3-container w3-white w3-padding-16
+myLink">
+ <h3>Best car rental in the world!</h3>
+ <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span>
+Special offer if you book today: 25% off anywhere in the world with
+CarServiceRentalRUs</p>
+ <input class="w3-input w3-border" type="text"
+placeholder="Pick-up point">
+ <p><button class="w3-button w3-dark-grey">Search
+Availability</button></p>
+ </div>
+ </div>
+ </header>
+ <!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+ <!-- Good offers -->
+ <div class="w3-container w3-margin-top">
+ <h3>Good Offers Right Now</h3>
+ <h6>Up to <strong>50%</strong> discount.</h6>
+ </div>
+ <div class="w3-row-padding w3-text-white w3-large">
+ <div class="w3-half w3-margin-bottom">
+ <div class="w3-display-container">
+ <img src="japan.jpg"
+alt="Japan" style="width:100%">
+ <span class="w3-display-bottomleft w3-padding">Japan</span>
+ </div>
+ </div>
+ <div class="w3-half">
+ <div class="w3-row-padding" style="margin:0 -16px">
+ <div class="w3-half w3-margin-bottom">
+ <div class="w3-display-container">
+ <img
+src="denmark.jpg"
+alt="Dennmark" style="width:100%">
+ <span class="w3-display-bottomleft w3-
+padding">Denmark</span>
+ </div>
+ </div>
+ <div class="w3-half w3-margin-bottom">
+ <div class="w3-display-container">
+ <img
+src="italy.jpg" alt="San
+Francisco" style="width:100%">
+ <span class="w3-display-bottomleft w3-padding">San
+Francisco</span>
+ </div>
+ </div>
+ </div>
+ <div class="w3-row-padding" style="margin:0 -16px">
+ <div class="w3-half w3-margin-bottom">
+ <div class="w3-display-container">
+ <img
+src="ladhak.jpg" alt="Pisa"
+style="width:100%">
+ <span class="w3-display-bottomleft w3-padding">Leh
+Ladak</span>
+ </div>
+ </div>
+ <div class="w3-half w3-margin-bottom">
+ <div class="w3-display-container">
+ <img
+src="waterfall.jpg"
+alt="Paris" style="width:100%">
+ <span class="w3-display-bottomleft w3-
+padding">waterfall</span>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- Explore Nature -->
+ <div class="w3-container">
+ <h3>Explore Nature</h3>
+ <p>Travel with us and see nature at its finest.</p>
+ </div>
+ <div class="w3-row-padding">
+ <div class="w3-half w3-margin-bottom">
+ <img src="ocean2.jpg"
+alt="Norway" style="width:100%">
+ <div class="w3-container w3-white">
+ <h3>West Coast, Norway</h3>
+ <p class="w3-opacity">Roundtrip from $79</p>
+ <p>Praesent tincidunt sed tellus ut rutrum sed vitae
+justo.</p>
+ <button class="w3-button w3-margin-bottom">Buy
+Tickets</button>
+ </div>
+ </div>
+ <div class="w3-half w3-margin-bottom">
+ <img
+src="Mountains.jpg"
+alt="Austria" style="width:100%">
+ <div class="w3-container w3-white">
+ <h3>Mountains, Austria</h3>
+ <p class="w3-opacity">One-way from $39</p>
+ <p>Praesent tincidunt sed tellus ut rutrum sed vitae
+justo.</p>
+ <button class="w3-button w3-margin-bottom">Buy
+Tickets</button>
+ </div>
+ </div>
+ </div>
+
+
+
+ <!-- End page content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+ <h5>Find Us On</h5>
+ <div class="w3-xlarge w3-padding-16">
+ <i class="fa fa-facebook-official w3-hover-opacity"></i>
+ <i class="fa fa-instagram w3-hover-opacity"></i>
+ <i class="fa fa-snapchat w3-hover-opacity"></i>
+ <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+ <i class="fa fa-twitter w3-hover-opacity"></i>
+ <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>my trip</p>
+ </footer>
+
+ <script>
+ // Tabs
+ function openLink(evt, linkName) {
+ var i, x, tablinks;
+ x = document.getElementsByClassName("myLink");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ tablinks = document.getElementsByClassName("tablink");
+ for (i = 0; i < x.length; i++) {
+ tablinks[i].className = tablinks[i].className.replace(" w3-red",
+"");
+ }
+ document.getElementById(linkName).style.display = "block";
+ evt.currentTarget.className += " w3-red";
+ }
+
+ // Click on the first tablink on load
+ document.getElementsByClassName("tablink")[0].click();
+ </script>
+
+<div id="id01" class="modal">
+
+ <form class="modal-content
+animate" action="action_page.php">
+ <div class="imgcontainer">
+ <span
+onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+ <img src="img_avatar2.png"
+alt="Avatar" class="avatar">
+ </div>
+
+ <div class="container">
+ <form action="">
+ name: <br>
+<input type="email"
+name="email" id="email">
+<br>
+<br>
+password:<br>
+<input type="password"
+name="password" id="password">
+<br>
+ <br>
+<button>Submit</button>
+ </form>
+ </div>
+
+<div class="container"
+style="background-color:#f1f1f1">
+ <button type="button"
+onclick="document.getElementById('id01').style.display='none'"
+class="cancelbtn">Cancel</button>
+ <span class="psw">Forgot <a
+href="#">password?</a></span>
+ </div>
+ </form>
+ </div>
+ <script src="modal.js"></script>
+ <div id="id02" class="modal2">
+ <span
+onclick="document.getElementById('id02').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+ <form class="modal-content" action="">
+ <div class="container">
+ <h1>Sign Up</h1>
+ <p>Please fill in this form to create an account.</p>
+ <form action="registerr.php" id="registerform">
+ enter email:<br>
+ <input type="email" name="email" id="email">
+<br>
+ <br>
+ Enter password:<br>
+ <input type="password" name="password" id="upassword">
+ <br>
+ <br>
+
+ </form>
+ <label>
+ <input type="checkbox" checked="checked"
+name="remember" style="margin-bottom:15px"> Remember me
+ </label>
+
+ <p>By creating an account you agree to our <a href="#"
+style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+ <div class="clearfix">
+ <button type="button"
+onclick="document.getElementById('id02').style.display='none'"
+class="cancelbtn">Cancel</button>
+ <button type="submit" class="signupbtn">Sign
+Up</button>
+ </div>
+ </div>
+ </form>
+ </div>
+ <script src="modal2.js"></script>
+ <script src="register.js"></script>
+
+</body>
+</html>
