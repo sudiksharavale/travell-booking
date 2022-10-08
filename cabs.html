@@ -10,8 +10,8 @@
  <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css"/>
  </head>
- <body style="background-image: url('taxi.jpg')">
-
+ <body style="background-image: url('taxi.jpg')" >
+    
  <nav>
  <a href="project.html"><i class="fa fa-fw
 fa-home"></i> Home</a>
@@ -19,9 +19,9 @@ fa-home"></i> Home</a>
 href="hotelf.html"><span>&#127869;</span> HOTEL</a>
 <a
 href="flights.html"><span>&#9992;</span>flights</a>
-<a href="railway.html"><span>&#128647;</span>Railway</a>
 <a class="active"
 href="cabs.html"><span>&#128659;</span>Cabs</a>
+<a href="railway.html"><span>&#128647;</span>Railway</a>
 <a href="search.html"><span>&#128647;</span>search</a>
  <a href="contancat.html"><i class="fa
 fa-fw fa-envelope"></i> Contact</a>
@@ -32,9 +32,33 @@ class="fa fa-fw fa-user"></i> Login </a>
 onclick="document.getElementById('id02').style.display='block'"><i
 class="fa fa-fw fa-user"></i> Sign Up </a>
  </nav>
-<form class="form-inline"
+
+ <form class="form-inline"
+ action="action_page.php">
+ <button
+type="submit">Submit</button>
+  <label for="email"></label>
+  <input type="email" id="email"
+ placeholder="Enter place location" name="email">
+ <label for="email"></label>
+  <input type="email" id="email"
+ placeholder="Enter place location" name="email">
+ <label for="email"></label>
+  <input type="email" id="email"
+ placeholder="Enter place location" name="email">
+ <label for="pwd"></label>
+ <input type="password" id="pwd"
+ placeholder="Age" name="pswd">
+  </form>
+ <form class="form-inline"
 action="action_page.php">
  <label for="email"></label>
+ <input type="email" id="email"
+placeholder="Enter place location" name="email">
+<label for="email"></label>
+ <input type="email" id="email"
+placeholder="Enter place location" name="email">
+<label for="email"></label>
  <input type="email" id="email"
 placeholder="Enter place location" name="email">
 <label for="pwd"></label>
@@ -77,6 +101,7 @@ type="submit">Submit</button>
        
         <div class="container">
         <form action="">
+
         name: <br>
        <input type="email"
        name="email" id="email">
@@ -92,7 +117,7 @@ type="submit">Submit</button>
         </div>
        
        <div class="container"
-       style="background-color:#f1f1f1">
+       style="background-color:#12b0be">
         <button type="button"
        onclick="document.getElementById('id01').style.display='none'"
        class="cancelbtn">Cancel</button>
